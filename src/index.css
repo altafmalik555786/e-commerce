@@ -1,13 +1,144 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 0 10%;
+  background-color: green !important;
+  height: 70px;
+  padding-top: 5px;
+}
+
+
+
+ .logo {
+  float: left;
+  border: 0 solid black;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 10px 40px 10px 0;
+  background-color: black;
+
+}
+
+
+.header nav span {
+  float: left;
+  border: 0 solid black;
+  margin: 15px;
+  padding: 5px 10px;
+  border-radius: 25px;
+  font-weight: 900;
+  letter-spacing: 2px;
+
+  
+
+ 
+}
+.header nav span:hover {
+  color: white;
+}
+
+.main-container {
+  border: 0px solid black;
+  height: 550px ;
+  width: 100%;
+  background-color: grey;
+  padding: 50px;
+}
+
+.nav {
+  border: 0 solid black;
+  width: 250px;
+  height: 420px;
+  float: left;
+  background-color: pink;
+  border-radius: 25px;
+  margin-left: 20px;
+
+}
+
+.main {
+  border: 0 solid black;
+  width: 900px;
+  height: 420px;
+  float: left;
+  margin-left: 5%;
+  background-color: pink;
+  border-radius: 25px;
+  padding: 0 30px;
+}
+
+.footer {
+  padding: 0 10%;
+  background-color: green !important;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+}
+
+.footer p {
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+
+
+}
+
+.footer p:hover {
+  color: white;
+}
+
+.img-cart {
+  border: 0 solid black;
+  border-radius: 15px;
+  width: 120px;
+  height: 200px;
+  float: left;
+  margin: 5px 10px;
+  background-color: lightgreen;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  
+}
+.img-cart img {
+  border-radius: 15px;
+  width: 100%;
+  height: 120px;
+}
+
+.img-footer {
+  border: 0 solid black;
+  width: 100%;
+  height: 20px;
+  border-radius: 25px;
+  background-color: lightsalmon;
+}
+
+.img-footer {
+  font-size: 9px;
+  padding-top: 5px;
+}
+
+.img-footer span {
+  margin: 0 4px;
+  text-align: center;
+  background-color: skyblue;
+  padding: 1px 2px;
+  border-radius: 25px;
+  font-weight: 900;
 }
